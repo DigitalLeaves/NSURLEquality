@@ -10,6 +10,7 @@
 		6610D58617D331C900D8E68E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6610D58517D331C900D8E68E /* Foundation.framework */; };
 		6610D58917D331C900D8E68E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6610D58817D331C900D8E68E /* main.m */; };
 		6610D58D17D331C900D8E68E /* NSURLTest.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6610D58C17D331C900D8E68E /* NSURLTest.1 */; };
+		6610D59517D331DD00D8E68E /* NSURL+RealEquality.m in Sources */ = {isa = PBXBuildFile; fileRef = 6610D59417D331DD00D8E68E /* NSURL+RealEquality.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		6610D58817D331C900D8E68E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6610D58B17D331C900D8E68E /* NSURLTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURLTest-Prefix.pch"; sourceTree = "<group>"; };
 		6610D58C17D331C900D8E68E /* NSURLTest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = NSURLTest.1; sourceTree = "<group>"; };
+		6610D59317D331DD00D8E68E /* NSURL+RealEquality.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+RealEquality.h"; sourceTree = "<group>"; };
+		6610D59417D331DD00D8E68E /* NSURL+RealEquality.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+RealEquality.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +79,8 @@
 				6610D58817D331C900D8E68E /* main.m */,
 				6610D58C17D331C900D8E68E /* NSURLTest.1 */,
 				6610D58A17D331C900D8E68E /* Supporting Files */,
+				6610D59317D331DD00D8E68E /* NSURL+RealEquality.h */,
+				6610D59417D331DD00D8E68E /* NSURL+RealEquality.m */,
 			);
 			path = NSURLTest;
 			sourceTree = "<group>";
@@ -139,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6610D59517D331DD00D8E68E /* NSURL+RealEquality.m in Sources */,
 				6610D58917D331C900D8E68E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

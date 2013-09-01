@@ -10,8 +10,8 @@ Usage
 
 Simply copy the NSURL+RealEquality category files to your project, import the .h and use it this way:
 
+```
 NSURL * path1 = ...
-
 NSURL * path2 = ...
 
 BOOL filesAreEquivalent = [path1 fileIsEquivalentTo: path2];
@@ -19,4 +19,6 @@ BOOL filesAreEquivalent = [path1 fileIsEquivalentTo: path2];
 if (filesAreEquivalent) {
     // do something.
 }
+```
 
+Web resource equivalency coming soon...

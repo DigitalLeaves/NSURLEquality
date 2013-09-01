@@ -34,6 +34,8 @@
 		6610D58C17D331C900D8E68E /* NSURLTest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = NSURLTest.1; sourceTree = "<group>"; };
 		6610D59317D331DD00D8E68E /* NSURL+RealEquality.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+RealEquality.h"; sourceTree = "<group>"; };
 		6610D59417D331DD00D8E68E /* NSURL+RealEquality.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+RealEquality.m"; sourceTree = "<group>"; };
+		6610D59617D3914600D8E68E /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6610D59717D3914600D8E68E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,8 @@
 		6610D58A17D331C900D8E68E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6610D59617D3914600D8E68E /* LICENSE */,
+				6610D59717D3914600D8E68E /* README.md */,
 				6610D58B17D331C900D8E68E /* NSURLTest-Prefix.pch */,
 			);
 			name = "Supporting Files";
